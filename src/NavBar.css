@@ -1,0 +1,78 @@
+.blackshade {
+  width: 100vw;
+  height: 100vh;
+  /*background: url('./work/blonde_woman_white_dress.jpg') center;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.judyname {
+  /*color: black;*/
+  /*background: white;*/
+  position:fixed;
+  margin: 0;
+  top: 0vw;
+  left: 0vw;
+/*  background: rgba(255,255,255,0);
+  background-size: cover;*/
+  /*color: white;*/
+/*  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
+  font-family: 'Work Sans', sans-serif;
+  font-size: 5vw;
+  padding: 20px 20px 0px 60px;
+  line-height: 3vw;
+  margin: 0;
+  /*background: rgb(200,200,200);*/
+  mix-blend-mode: screen;
+  background: rgb(255,255,255,.8);
+  border-bottom-right-radius: 15px;
+}
+
+.navbox {
+  position: fixed;
+  top: 0vw;
+  right: 0vw;
+  z-index: 5;
+}
+
+.navbox > a > p {
+  display: inline-block;
+  font-family: 'Sunflower', sans-serif;
+  padding: 10px 20px;
+  margin: 15px 20px;
+  color: rgba(255,255,255,0.8);
+  opacity: .8;
+}
+
+.navbox > a:nth-of-type(3) {
+  margin-right: 30px;
+}
+
+.navbox > a > p:hover {
+  border: 1px solid rgba(255,255,255,0.8);
+  border-radius: 8px;
+  padding: 9px 19px;
+  cursor: pointer;
+}
+
+.navcontainer {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
